@@ -42,9 +42,9 @@ int main() {
 
 
     printRegistrationEventHeader();// just prints a visual barrier for easier reading
-    //scheduling
+    // scheduling
     // this method looks at the raw data again and determines the order in which students are assigned to course objects
-    // their order is maintained with a queue since it works in the interest of fairness
+    // their order is maintained with a queue to operate on a first come first serve basis. 
     newSchool.enrollStudentsInClasses(rawStudentData);
     
     
